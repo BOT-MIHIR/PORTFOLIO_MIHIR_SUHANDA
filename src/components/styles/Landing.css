@@ -173,6 +173,7 @@
 .landing-intro h1 {
   margin: 0;
   letter-spacing: 2px;
+  word-spacing: 10px;
   font-size: 28px;
   line-height: 28px;
   font-weight: 500;
