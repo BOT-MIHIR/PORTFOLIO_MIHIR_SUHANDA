@@ -254,6 +254,13 @@
   .what-content {
     min-height: 67%;
   }
+  .what-content h5,
+  .what-content-flex {
+    opacity: 1 !important;
+  }
+  .what-content-in {
+    opacity: 1 !important;
+  }
 }
 @media only screen and (max-width: 1600px) {
   .what-box h2 {
