@@ -16,7 +16,6 @@ const MainContainer = ({ children }: PropsWithChildren) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(
     window.innerWidth > 1024
   );
-
   useEffect(() => {
     const resizeHandler = () => {
       setSplitText();
@@ -28,7 +27,6 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       window.removeEventListener("resize", resizeHandler);
     };
   }, [isDesktopView]);
-
   return (
     <div className="container-main">
       <Cursor />

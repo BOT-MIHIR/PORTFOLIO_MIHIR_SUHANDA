@@ -23,9 +23,7 @@ const imageUrls = [
   "/images/github-white-icon.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
-
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
-
 const spheres = [...Array(30)].map(() => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
 }));
@@ -46,7 +44,6 @@ function SphereGeo({
   isActive,
 }: SphereProps) {
   const api = useRef<RapierRigidBody | null>(null);
-
   useFrame((_state, delta) => {
     if (!isActive) return;
     delta = Math.min(0.1, delta);
@@ -60,10 +57,8 @@ function SphereGeo({
           -50 * delta * scale
         )
       );
-
     api.current?.applyImpulse(impulse, true);
   });
-
   return (
     <RigidBody
       linearDamping={0.75}
@@ -98,7 +93,6 @@ type PointerProps = {
 
 function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
   const ref = useRef<RapierRigidBody>(null);
-
   useFrame(({ pointer, viewport }) => {
     if (!isActive) return;
     const targetVec = vec.lerp(
@@ -111,7 +105,6 @@ function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
     );
     ref.current?.setNextKinematicTranslation(targetVec);
   });
-
   return (
     <RigidBody
       position={[100, 100, 100]}
@@ -126,7 +119,6 @@ function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
 
 const TechStack = () => {
   const [isActive, setIsActive] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
@@ -165,11 +157,9 @@ const TechStack = () => {
         })
     );
   }, []);
-
   return (
     <div className="techstack">
       <h2> My Techstack</h2>
-
       <Canvas
         shadows
         gl={{ alpha: true, stencil: false, depth: false, antialias: false }}

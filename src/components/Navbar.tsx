@@ -6,8 +6,7 @@ import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Simple smoother replacement
-export const smoother = {
+const smoother = {
   paused: (value?: boolean) => {
     if (value !== undefined) {
       document.body.style.overflow = value ? 'hidden' : 'auto';
@@ -28,12 +27,9 @@ export const smoother = {
 
 const Navbar = () => {
   useEffect(() => {
-    // Enable smooth scrolling via CSS
     document.documentElement.style.scrollBehavior = 'smooth';
-    
     smoother.scrollTop(0);
     smoother.paused(true);
-
     let links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
       let element = elem as HTMLAnchorElement;
@@ -91,7 +87,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>
       <div className="nav-fade"></div>

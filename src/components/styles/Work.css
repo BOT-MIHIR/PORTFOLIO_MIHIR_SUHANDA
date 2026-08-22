@@ -96,6 +96,22 @@
 .work-info > p {
   width: 90%;
 }
+.work-info .work-description {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.work-info .work-tech-label {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+.work-info .work-github-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--accentColor);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
 .work-image {
   display: flex;
   width: 100%;

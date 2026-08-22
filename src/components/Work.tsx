@@ -109,56 +109,51 @@ const projects = [
 
 const Work = () => {
   useEffect(() => {
-  let translateX: number = 0;
+    let translateX: number = 0;
 
-  function setTranslateX() {
-    const box = document.getElementsByClassName("work-box");
-    const rectLeft = document
-      .querySelector(".work-container")!
-      .getBoundingClientRect().left;
-    const rect = box[0].getBoundingClientRect();
-    const parentWidth = box[0].parentElement!.getBoundingClientRect().width;
-    let padding: number =
-      parseInt(window.getComputedStyle(box[0]).padding) / 2;
-    translateX = rect.width * box.length - (rectLeft + parentWidth) + padding;
-  }
+    function setTranslateX() {
+      const box = document.getElementsByClassName("work-box");
+      const rectLeft = document
+        .querySelector(".work-container")!
+        .getBoundingClientRect().left;
+      const rect = box[0].getBoundingClientRect();
+      const parentWidth = box[0].parentElement!.getBoundingClientRect().width;
+      let padding: number =
+        parseInt(window.getComputedStyle(box[0]).padding) / 2;
+      translateX = rect.width * box.length - (rectLeft + parentWidth) + padding;
+    }
 
-  setTranslateX();
+    setTranslateX();
 
-  let timeline = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".work-section",
-      start: "top top",
-      end: `+=${translateX * 1.5}`,
-      scrub: 1.5,
-      pin: true,
-      id: "work",
-      anticipatePin: 1,
-      invalidateOnRefresh: true,
-    },
-  });
+    let timeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".work-section",
+        start: "top top",
+        end: `+=${translateX * 1.5}`,
+        scrub: 1.5,
+        pin: true,
+        id: "work",
+        anticipatePin: 1,
+        invalidateOnRefresh: true,
+      },
+    });
 
-  timeline.to(".work-flex", {
-    x: -translateX,
-    ease: "none",
-    force3D: true,
-  });
+    timeline.to(".work-flex", {
+      x: -translateX,
+      ease: "none",
+      force3D: true,
+    });
 
-  // Clean up (optional, good practice)
-  return () => {
-    timeline.kill();
-    ScrollTrigger.getById("work")?.kill();
-  };
-}, []);
-
-  // Handle window resize for smooth recalculation
-  useEffect(() => {
     const handleResize = () => {
       ScrollTrigger.refresh();
     };
-    
+
     window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    return () => {
+      timeline.kill();
+      ScrollTrigger.getById("work")?.kill();
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
   return (
     <div className="work-section" id="work">
@@ -172,28 +167,21 @@ const Work = () => {
               <div className="work-info">
                 <div className="work-title">
                   <h3>{project.id < 10 ? `0${project.id}` : project.id}</h3>
-
                   <div>
                     <h4>{project.name}</h4>
                     <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>{project.year}</h4>
-                <p style={{ marginBottom: '10px', fontSize: '0.9rem', lineHeight: '1.4' }}>{project.description}</p>
-                <h5 style={{ fontSize: '0.85rem', marginTop: '10px' }}>Technologies</h5>
+                <p className="work-description">{project.description}</p>
+                <h5 className="work-tech-label">Technologies</h5>
                 <p>{project.tools}</p>
                 {project.github && (
                   <a 
                     href={project.github} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    style={{ 
-                      display: 'inline-block', 
-                      marginTop: '10px', 
-                      color: 'var(--accentColor)', 
-                      textDecoration: 'none',
-                      fontSize: '0.9rem'
-                    }}
+                    className="work-github-link"
                   >
                     View on GitHub →
                   </a>

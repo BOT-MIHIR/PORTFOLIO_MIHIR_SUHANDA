@@ -83,7 +83,6 @@ const WhatIDo = () => {
               </svg>
             </div>
             <div className="what-corner"></div>
-
             <div className="what-content-in">
               <h3>AI/ML ENGINEERING</h3>
               <h4>Agentic Systems & Production ML</h4>
@@ -187,7 +186,6 @@ function handleClick(container: HTMLDivElement) {
   container.classList.remove("what-sibling");
   if (container.parentElement) {
     const siblings = Array.from(container.parentElement.children);
-
     siblings.forEach((sibling) => {
       if (sibling !== container) {
         sibling.classList.remove("what-content-active");
