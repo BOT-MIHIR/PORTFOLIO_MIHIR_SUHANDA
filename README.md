@@ -5,6 +5,7 @@
   <a href="https://www.linkedin.com/in/mihir-suhanda" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
   <a href="https://github.com/BOT-MIHIR" target="_blank"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github"/></a>
   <a href="mailto:mihirsuhanda01@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://mihirsuhanda.com" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
 </p>
 
 ---
@@ -176,6 +177,7 @@ npm run preview
 
 I'm always interested in collaborating on innovative AI/ML projects, discussing agentic systems, or exploring new opportunities in production ML engineering.
 
+- 🌐 **Portfolio:** [mihirsuhanda.com](https://mihirsuhanda.com)
 - 📧 **Email:** mihirsuhanda01@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/mihir-suhanda](https://www.linkedin.com/in/mihir-suhanda)
 - 🐙 **GitHub:** [github.com/BOT-MIHIR](https://github.com/BOT-MIHIR)
