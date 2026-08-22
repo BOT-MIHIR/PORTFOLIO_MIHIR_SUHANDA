@@ -250,6 +250,11 @@
   border: 1px solid #ffffff50;
   border-radius: 30px;
 }
+@media only screen and (min-width: 901px) {
+  .what-content {
+    min-height: 67%;
+  }
+}
 @media only screen and (max-width: 1600px) {
   .what-box h2 {
     margin-right: 18%;
