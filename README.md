@@ -5,7 +5,6 @@
   <a href="https://linkedin.com/in/mihir-suhanda"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
   <a href="https://github.com/BOT-MIHIR"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github"/></a>
   <a href="mailto:mihirsuhanda01@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="tel:+919769000674"><img src="https://img.shields.io/badge/-Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 </p>
 
 ---
@@ -123,19 +122,6 @@ CLI music management system with RBAC and cloud-native eCommerce microservices p
 
 ---
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BOT-MIHIR&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BOT-MIHIR&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOT-MIHIR&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</p>
-
----
-
 ## 🎯 Key Metrics
 
 <p align="center">
@@ -193,7 +179,6 @@ I'm always interested in collaborating on innovative AI/ML projects, discussing 
 - 📧 **Email:** mihirsuhanda01@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/mihir-suhanda](https://linkedin.com/in/mihir-suhanda)
 - 🐙 **GitHub:** [github.com/BOT-MIHIR](https://github.com/BOT-MIHIR)
-- 📱 **Phone:** +91 9769000674
 
 ---
 
