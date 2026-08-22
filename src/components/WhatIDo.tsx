@@ -95,11 +95,8 @@ const WhatIDo = () => {
                 <div className="what-tags">PydanticAI</div>
                 <div className="what-tags">FastAPI</div>
                 <div className="what-tags">PyTorch</div>
-                <div className="what-tags">Scikit-Learn</div>
                 <div className="what-tags">RAG Systems</div>
-                <div className="what-tags">Vector DBs</div>
                 <div className="what-tags">MLOps</div>
-                <div className="what-tags">Computer Vision</div>
                 <div className="what-tags">NLP</div>
               </div>
               <div className="what-arrow"></div>
@@ -132,11 +129,9 @@ const WhatIDo = () => {
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">AWS Lambda</div>
-                <div className="what-tags">AWS S3/EC2</div>
                 <div className="what-tags">Docker</div>
                 <div className="what-tags">API Gateway</div>
                 <div className="what-tags">CI/CD</div>
-                <div className="what-tags">Git Workflows</div>
                 <div className="what-tags">TypeScript</div>
                 <div className="what-tags">Node.js</div>
               </div>
@@ -171,12 +166,10 @@ const WhatIDo = () => {
               <div className="what-content-flex">
                 <div className="what-tags">Snowflake</div>
                 <div className="what-tags">SQL</div>
-                <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">Python</div>
                 <div className="what-tags">Pandas</div>
                 <div className="what-tags">ETL Pipelines</div>
-                <div className="what-tags">3NF Design</div>
-                <div className="what-tags">Graph Algorithms</div>
+                <div className="what-tags">PostgreSQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
