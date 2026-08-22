@@ -2,8 +2,8 @@
 <h3 align="center">Agentic AI Engineer | ML Systems Architect | Cloud & Data Engineer</h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/mihir-suhanda"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
-  <a href="https://github.com/BOT-MIHIR"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://www.linkedin.com/in/mihir-suhanda" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
+  <a href="https://github.com/BOT-MIHIR" target="_blank"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github"/></a>
   <a href="mailto:mihirsuhanda01@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
@@ -177,7 +177,7 @@ npm run preview
 I'm always interested in collaborating on innovative AI/ML projects, discussing agentic systems, or exploring new opportunities in production ML engineering.
 
 - 📧 **Email:** mihirsuhanda01@gmail.com
-- 💼 **LinkedIn:** [linkedin.com/in/mihir-suhanda](https://linkedin.com/in/mihir-suhanda)
+- 💼 **LinkedIn:** [linkedin.com/in/mihir-suhanda](https://www.linkedin.com/in/mihir-suhanda)
 - 🐙 **GitHub:** [github.com/BOT-MIHIR](https://github.com/BOT-MIHIR)
 
 ---
