@@ -1,5 +1,4 @@
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
@@ -187,7 +186,6 @@ const Work = () => {
                   </a>
                 )}
               </div>
-              <WorkImage image="/images/placeholder.webp" alt={project.name} />
             </div>
           ))}
         </div>

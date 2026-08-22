@@ -54,14 +54,24 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+          <div className="logo-video-container">
+            <video 
+              autoPlay 
+              loop 
+              muted 
+              playsInline
+              className="logo-video"
+            >
+              <source src="/Scene.mp4" type="video/mp4" />
+            </video>
+          </div>
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:mihirsuhanda01@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          mihirsuhanda01@gmail.com
         </a>
         <ul>
           <li>

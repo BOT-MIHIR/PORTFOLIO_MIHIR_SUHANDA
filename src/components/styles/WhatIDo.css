@@ -16,14 +16,25 @@
   display: flex;
   justify-content: center;
   position: relative;
-  z-index: 9;
+  z-index: 12;
 }
 .what-box h2 {
   font-size: calc(4vw + 25px);
-  line-height: calc(4vw + 20px);
+  line-height: calc(4vw + 25px);
   font-weight: 600;
   margin-right: 10%;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.what-box h2 div:first-child {
+  font-style: italic;
+}
+
+.what-box h2 div:last-child {
+  color: var(--accentColor);
 }
 
 .hat-h2 {
