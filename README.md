@@ -182,15 +182,6 @@ I'm always interested in collaborating on innovative AI/ML projects, discussing 
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-**Usage Notice:**  
-This portfolio is shared for learning and inspiration. Feel free to use the code with proper attribution. If you find it helpful, please give credit and link back to this repository.
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BOT-MIHIR&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
 </p>
@@ -200,5 +191,5 @@ This portfolio is shared for learning and inspiration. Feel free to use the code
 </p>
 
 <p align="center">
-  Made with ❤️ by <b>Mihir Suhanda</b> © 2026
+  Maintained and Managed by <b>Mihir Suhanda</b> © 2026
 </p>
