@@ -251,17 +251,20 @@
   border-radius: 30px;
 }
 @media only screen and (min-width: 901px) {
-  .what-content {
-    min-height: 85%;
-  }
   .what-content h5,
   .what-content-flex {
-    opacity: 1 !important;
+    opacity: 0;
+    transition: 0.3s;
   }
-  .what-content-in {
-    opacity: 1 !important;
-    height: auto !important;
-    overflow: hidden;
+  .what-noTouch:hover h5,
+  .what-content-active h5,
+  .what-noTouch:hover .what-content-flex,
+  .what-content-active .what-content-flex {
+    opacity: 1;
+  }
+  .what-noTouch:hover .what-content-in,
+  .what-content-active .what-content-in {
+    height: auto;
   }
 }
 @media only screen and (max-width: 1600px) {
