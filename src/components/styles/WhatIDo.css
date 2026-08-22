@@ -261,7 +261,7 @@
   .what-content-in {
     opacity: 1 !important;
     height: auto !important;
-    overflow: visible !important;
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 1600px) {
