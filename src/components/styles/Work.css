@@ -11,6 +11,8 @@
   height: 100vh;
   box-sizing: border-box;
   will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 .work-container {
   margin: auto;
@@ -26,6 +28,12 @@
   margin-left: -80px;
   padding-right: 120px;
   position: relative;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
 }
 .work-box {
   padding: 80px;
@@ -37,6 +45,9 @@
   flex-shrink: 0;
   gap: 50px;
   justify-content: start;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 .work-flex .work-box:nth-child(even) {
   flex-direction: column-reverse;

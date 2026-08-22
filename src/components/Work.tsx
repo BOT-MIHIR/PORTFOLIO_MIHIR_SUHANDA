@@ -129,16 +129,19 @@ const Work = () => {
     scrollTrigger: {
       trigger: ".work-section",
       start: "top top",
-      end: `+=${translateX}`, // Use actual scroll width
-      scrub: true,
+      end: `+=${translateX * 1.5}`,
+      scrub: 1.5,
       pin: true,
       id: "work",
+      anticipatePin: 1,
+      invalidateOnRefresh: true,
     },
   });
 
   timeline.to(".work-flex", {
     x: -translateX,
     ease: "none",
+    force3D: true,
   });
 
   // Clean up (optional, good practice)
@@ -147,6 +150,16 @@ const Work = () => {
     ScrollTrigger.getById("work")?.kill();
   };
 }, []);
+
+  // Handle window resize for smooth recalculation
+  useEffect(() => {
+    const handleResize = () => {
+      ScrollTrigger.refresh();
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
