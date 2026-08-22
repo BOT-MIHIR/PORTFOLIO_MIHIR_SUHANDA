@@ -184,12 +184,10 @@ I'm always interested in collaborating on innovative AI/ML projects, discussing 
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 **Usage Notice:**  
-This portfolio is shared for learning and inspiration. Please **DO NOT** replicate the full website or use it for commercial purposes. If you use portions of the code, provide proper attribution linking back to this repository.
-
-**Build your own version — don't just copy.**
+This portfolio is shared for learning and inspiration. Feel free to use the code with proper attribution. If you find it helpful, please give credit and link back to this repository.
 
 ---
 
